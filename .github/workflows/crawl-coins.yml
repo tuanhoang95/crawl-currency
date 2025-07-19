@@ -18,11 +18,11 @@ jobs:
         with:
           node-version: 18
 
-      - name: Install dependencies
-        run: npm install
+      # - name: Install dependencies
+      #   run: npm install
 
       - name: Run crawl script
-        run: node crawl_coins.js
+        run: node coins.js
 
       - name: Commit and push changes in coins folder
         run: |
