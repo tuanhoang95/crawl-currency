@@ -74460,6 +74460,21 @@
     "name": "TAC"
   },
   {
+    "id": "tac-bridged-ton-tac",
+    "symbol": "ton",
+    "name": "TAC Bridged TON (TAC)"
+  },
+  {
+    "id": "tac-bridged-usdt-tac",
+    "symbol": "usdt",
+    "name": "TAC Bridged USDT (TAC)"
+  },
+  {
+    "id": "tac-bridged-weth-tac",
+    "symbol": "weth",
+    "name": "TAC Bridged WETH (TAC)"
+  },
+  {
     "id": "ta-da",
     "symbol": "tada",
     "name": "Ta-da"
@@ -76612,7 +76627,7 @@
   {
     "id": "timespace",
     "symbol": "πts",
-    "name": "πTimeSpace"
+    "name": "��TimeSpace"
   },
   {
     "id": "timeswap",
@@ -85408,6 +85423,11 @@
     "id": "wrapped-super-oeth",
     "symbol": "wsuperoeth",
     "name": "Wrapped Super OETH"
+  },
+  {
+    "id": "wrapped-tac",
+    "symbol": "wtac",
+    "name": "Wrapped TAC"
   },
   {
     "id": "wrapped-tao",
