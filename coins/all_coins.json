@@ -5915,11 +5915,6 @@
     "name": "Aster Staked BNB"
   },
   {
-    "id": "astherus-staked-btc",
-    "symbol": "asbtc",
-    "name": "Aster Staked BTC"
-  },
-  {
     "id": "astherus-staked-cake",
     "symbol": "ascake",
     "name": "Aster Staked CAKE"
@@ -11795,6 +11790,11 @@
     "name": "BnkToTheFuture"
   },
   {
+    "id": "bnpl-pay",
+    "symbol": "bnpl",
+    "name": "BNPL Pay"
+  },
+  {
     "id": "bnsd-finance",
     "symbol": "bnsd",
     "name": "BNSD Finance"
@@ -12658,11 +12658,6 @@
     "id": "borpatoken",
     "symbol": "gorples",
     "name": "GorplesCoin"
-  },
-  {
-    "id": "bosagora",
-    "symbol": "boa",
-    "name": "BOSagora [OLD]"
   },
   {
     "id": "bosagora-2",
@@ -28280,11 +28275,6 @@
     "name": "Exohood"
   },
   {
-    "id": "exorde",
-    "symbol": "exd",
-    "name": "Exorde"
-  },
-  {
     "id": "exosama-network",
     "symbol": "sama",
     "name": "Moonsama"
@@ -35010,11 +35000,6 @@
     "name": "Hachi"
   },
   {
-    "id": "hachi-inu",
-    "symbol": "hachi inu",
-    "name": "Hachi Inu"
-  },
-  {
     "id": "hachiko-2",
     "symbol": "hachiko",
     "name": "Hachiko"
@@ -38168,11 +38153,6 @@
     "id": "immortal-com",
     "symbol": "immortal",
     "name": "IMMORTAL.COM"
-  },
-  {
-    "id": "immortaldao",
-    "symbol": "immo",
-    "name": "ImmortalDAO"
   },
   {
     "id": "immortal-token",
@@ -42533,21 +42513,6 @@
     "id": "kroma",
     "symbol": "kro",
     "name": "Kroma"
-  },
-  {
-    "id": "kroma-bridged-usdc-kroma",
-    "symbol": "usdc",
-    "name": "Kroma Bridged USDC (Kroma)"
-  },
-  {
-    "id": "kroma-bridged-usdt-kroma",
-    "symbol": "usdt",
-    "name": "Kroma Bridged USDT (Kroma)"
-  },
-  {
-    "id": "kroma-staked-eth",
-    "symbol": "speth",
-    "name": "Kroma Staked ETH"
   },
   {
     "id": "kromatika",
@@ -51908,11 +51873,6 @@
     "id": "multichain-bridged-wbtc-energi",
     "symbol": "wbtc",
     "name": "Multichain Bridged WBTC (Energi)"
-  },
-  {
-    "id": "multichain-bridged-wbtc-milkomeda",
-    "symbol": "wbtc",
-    "name": "Multichain Bridged WBTC (Milkomeda)"
   },
   {
     "id": "multichain-bridged-wbtc-moonriver",
@@ -79380,11 +79340,6 @@
     "name": "Typus"
   },
   {
-    "id": "tyrel-derpden",
-    "symbol": "tyrel",
-    "name": "Tyrel Derpden"
-  },
-  {
     "id": "tyz-token",
     "symbol": "tyz",
     "name": "TYZ Token"
@@ -85133,11 +85088,6 @@
     "id": "wrapped-ethereum-sollet",
     "symbol": "soeth",
     "name": "Wrapped Ethereum (Sollet)"
-  },
-  {
-    "id": "wrapped-ether-kroma",
-    "symbol": "weth",
-    "name": "Wrapped Ether (Kroma)"
   },
   {
     "id": "wrapped-ether-linea",
