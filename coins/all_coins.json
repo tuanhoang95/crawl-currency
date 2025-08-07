@@ -2691,7 +2691,7 @@
   },
   {
     "id": "air-coin",
-    "symbol": "空气币 /",
+    "symbol": "空���币 /",
     "name": "air coin"
   },
   {
@@ -33530,6 +33530,11 @@
     "name": "Goat"
   },
   {
+    "id": "goat-bridged-binance-bitcoin-goat",
+    "symbol": "btcb",
+    "name": "Goat Bridged Binance Bitcoin (Goat)"
+  },
+  {
     "id": "goat-gains",
     "symbol": "ggains",
     "name": "GOAT GAINS"
@@ -38672,7 +38677,7 @@
   {
     "id": "infinit",
     "symbol": "in",
-    "name": "Infinit"
+    "name": "INFINIT"
   },
   {
     "id": "infinitar-coin",
@@ -72870,6 +72875,11 @@
     "name": "Stargate Bridged USDC (Glue)"
   },
   {
+    "id": "stargate-bridged-usdc-goat",
+    "symbol": "usdc.e",
+    "name": "Stargate Bridged USDC (Goat)"
+  },
+  {
     "id": "stargate-bridged-usdc-gravity",
     "symbol": "usdc.e",
     "name": "Stargate Bridged USDC (Gravity)"
@@ -85728,6 +85738,11 @@
     "id": "wrapped-glq",
     "symbol": "wglq",
     "name": "Wrapped GLQ"
+  },
+  {
+    "id": "wrapped-goat-bitcoin",
+    "symbol": "wgbtc",
+    "name": "Wrapped Goat Bitcoin"
   },
   {
     "id": "wrapped-goldman-sachs-xstock",
