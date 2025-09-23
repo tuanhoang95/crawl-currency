@@ -14172,7 +14172,7 @@
   {
     "id": "bridged-usdc-core",
     "symbol": "usdc",
-    "name": "Bridged USDC (Core)"
+    "name": "CoreDAO Bridged USDC (Core)"
   },
   {
     "id": "bridged-usdc-gnosis",
@@ -14197,7 +14197,7 @@
   {
     "id": "bridged-usd-coin-linea",
     "symbol": "usdc",
-    "name": "Bridged USD Coin (Linea)"
+    "name": "Linea Bridged USDC (Linea)"
   },
   {
     "id": "bridged-usd-coin-manta-pacific",
@@ -14217,7 +14217,7 @@
   {
     "id": "bridged-usd-coin-starkgate",
     "symbol": "usdc",
-    "name": "Bridged USD Coin (StarkGate)"
+    "name": "StarkGate Bridged USDC (Starknet)"
   },
   {
     "id": "bridged-usd-coin-ton-bridge",
@@ -14228,11 +14228,6 @@
     "id": "bridged-usdc-polygon-pos-bridge",
     "symbol": "usdc.e",
     "name": "Bridged USDC (Polygon PoS Bridge)"
-  },
-  {
-    "id": "bridged-usdc-stargate",
-    "symbol": "usdc.e",
-    "name": "Stargate Bridged USDC (Taiko)"
   },
   {
     "id": "bridged-usdc-xdc-bridge",
@@ -55685,6 +55680,11 @@
     "name": "Navigator AI"
   },
   {
+    "id": "navigator-by-metawin",
+    "symbol": "navi",
+    "name": "Navigator by MetaWin"
+  },
+  {
     "id": "navy-seal",
     "symbol": "navyseal",
     "name": "Navy seal"
@@ -76443,16 +76443,6 @@
     "id": "stargate-bridged-usdc",
     "symbol": "usdc.e",
     "name": "Stargate Bridged USDC"
-  },
-  {
-    "id": "stargate-bridged-usdc-edu-chain",
-    "symbol": "usdc.e",
-    "name": "Stargate Bridged USDC (EDU Chain)"
-  },
-  {
-    "id": "stargate-bridged-usdc-goat",
-    "symbol": "usdc.e",
-    "name": "Stargate Bridged USDC (Goat)"
   },
   {
     "id": "stargate-bridged-usdc-iota-evm",
