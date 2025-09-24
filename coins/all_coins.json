@@ -2525,6 +2525,11 @@
     "name": "AI Companions"
   },
   {
+    "id": "aicre8",
+    "symbol": "aicre8",
+    "name": "AICre8"
+  },
+  {
     "id": "aicrew",
     "symbol": "aicr",
     "name": "AICrew"
@@ -14347,7 +14352,7 @@
   {
     "id": "bridged-wrapped-ether-stargate",
     "symbol": "weth",
-    "name": "Stargate Bridged WETH"
+    "name": "Bridged Wrapped Ether (Stargate)"
   },
   {
     "id": "bridged-wrapped-ether-starkgate",
@@ -31315,11 +31320,6 @@
     "name": "Flare AI"
   },
   {
-    "id": "flare-bridged-weth-flare",
-    "symbol": "weth",
-    "name": "Flare Bridged WETH (Flare)"
-  },
-  {
     "id": "flare-finance",
     "symbol": "exfi",
     "name": "Experimental Finance"
@@ -45433,11 +45433,6 @@
     "id": "l2-standard-bridged-weth-base",
     "symbol": "weth",
     "name": "L2 Standard Bridged WETH (Base)"
-  },
-  {
-    "id": "l2-standard-bridged-weth-berachain",
-    "symbol": "weth",
-    "name": "L2 Standard Bridged WETH (Berachain)"
   },
   {
     "id": "l2-standard-bridged-weth-blast",
@@ -76473,6 +76468,11 @@
     "id": "stargate-bridged-usdt-xdc",
     "symbol": "usdt",
     "name": "Stargate Bridged USDT (XDC)"
+  },
+  {
+    "id": "stargate-bridged-weth",
+    "symbol": "weth",
+    "name": "Stargate Bridged WETH"
   },
   {
     "id": "stargate-bridged-weth-flow",
