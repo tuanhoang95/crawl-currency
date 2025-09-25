@@ -19855,6 +19855,11 @@
     "name": "coreDAO"
   },
   {
+    "id": "coredao-bridged-weth-core",
+    "symbol": "weth",
+    "name": "CoreDAO Bridged WETH (Core)"
+  },
+  {
     "id": "coredaoorg",
     "symbol": "core",
     "name": "Core"
@@ -39470,6 +39475,11 @@
     "name": "Hydranet"
   },
   {
+    "id": "hydrated-dollar",
+    "symbol": "hollar",
+    "name": "Hydrated Dollar"
+  },
+  {
     "id": "hydraverse",
     "symbol": "hdv",
     "name": "Hydraverse"
@@ -46003,11 +46013,6 @@
     "id": "layerzero-bridged-rseth-linea",
     "symbol": "rseth",
     "name": "KelpDAO Bridged rsETH (Linea)"
-  },
-  {
-    "id": "layerzero-bridged-rsweth-swellchain",
-    "symbol": "rsweth",
-    "name": "Layerzero Bridged rswETH (Swellchain)"
   },
   {
     "id": "layerzero-bridged-sei",
