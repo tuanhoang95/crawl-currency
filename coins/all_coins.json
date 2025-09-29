@@ -11022,7 +11022,7 @@
   {
     "id": "bitcoin-5",
     "symbol": "btc.ℏ",
-    "name": "Bitcoin.ℏ"
+    "name": "Bitcoin.���"
   },
   {
     "id": "bitcoin-act",
@@ -14050,6 +14050,11 @@
     "name": "Bridged Binance-Peg Ethereum (opBNB)"
   },
   {
+    "id": "bridged-btc-superposition",
+    "symbol": "wbtc",
+    "name": "Bridged BTC (Superposition)"
+  },
+  {
     "id": "bridged-busd",
     "symbol": "busd",
     "name": "Bridged BUSD"
@@ -14298,6 +14303,11 @@
     "id": "bridged-weth",
     "symbol": "weth",
     "name": "Bridged WETH"
+  },
+  {
+    "id": "bridged-weth-superposition",
+    "symbol": "weth",
+    "name": "Bridged WETH (Superposition)"
   },
   {
     "id": "bridged-wrapped-bitcoin-bob-network",
