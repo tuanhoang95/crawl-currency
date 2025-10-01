@@ -75395,11 +75395,6 @@
     "name": "SōzōAI"
   },
   {
-    "id": "sp500-token",
-    "symbol": "sp500",
-    "name": "SP500 Token"
-  },
-  {
     "id": "sp500-xstock",
     "symbol": "spyx",
     "name": "SP500 xStock"
@@ -80348,6 +80343,11 @@
     "id": "test-3",
     "symbol": "tst",
     "name": "Test"
+  },
+  {
+    "id": "testbug",
+    "symbol": "testbug",
+    "name": "testbug"
   },
   {
     "id": "test-token-please-ignore",
@@ -89565,6 +89565,11 @@
     "name": "Wpphmrmbdtrsj2p0eb69i"
   },
   {
+    "id": "wrapped-0g",
+    "symbol": "w0g",
+    "name": "Wrapped 0G"
+  },
+  {
     "id": "wrapped-1inch-universal",
     "symbol": "u1inch",
     "name": "Wrapped 1inch (Universal)"
@@ -92583,6 +92588,11 @@
     "id": "xswap-2",
     "symbol": "xswap",
     "name": "XSwap"
+  },
+  {
+    "id": "xswap-bridged-usdc-0g",
+    "symbol": "usdc.e",
+    "name": "XSwap Bridged USDC (0G)"
   },
   {
     "id": "xswap-protocol",
