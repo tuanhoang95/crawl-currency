@@ -14315,11 +14315,6 @@
     "name": "XDC Bridged USDC (XDC)"
   },
   {
-    "id": "bridged-usdc-x-layer",
-    "symbol": "usdc.e",
-    "name": "X Layer Bridged USDC (X Layer)"
-  },
-  {
     "id": "bridged-usdt",
     "symbol": "usdt",
     "name": "Bridged USDT"
@@ -18618,6 +18613,11 @@
     "id": "clip-coin",
     "symbol": "clip",
     "name": "Clip Coin"
+  },
+  {
+    "id": "clipped",
+    "symbol": "clipped",
+    "name": "CLIPPED"
   },
   {
     "id": "clippy",
@@ -24163,6 +24163,21 @@
     "id": "dia-data",
     "symbol": "dia",
     "name": "DIA"
+  },
+  {
+    "id": "dialectic-btc-vault",
+    "symbol": "dbit",
+    "name": "Dialectic BTC Vault"
+  },
+  {
+    "id": "dialectic-eth-vault",
+    "symbol": "deth",
+    "name": "Dialectic ETH Vault"
+  },
+  {
+    "id": "dialectic-usd-vault",
+    "symbol": "dusd",
+    "name": "Dialectic USD Vault"
   },
   {
     "id": "diam",
@@ -31488,6 +31503,11 @@
     "id": "flash-liquidity-token",
     "symbol": "flp.1",
     "name": "Flash Liquidity Token"
+  },
+  {
+    "id": "flashscreener",
+    "symbol": "flash",
+    "name": "FlashScreener"
   },
   {
     "id": "flash-trade",
@@ -50336,7 +50356,7 @@
   },
   {
     "id": "massa-bridged-usdc-massa",
-    "symbol": "usdc",
+    "symbol": "usdc.e",
     "name": "Massa Bridged USDC (Massa)"
   },
   {
@@ -61620,6 +61640,11 @@
     "name": "Peachfolio"
   },
   {
+    "id": "peak-internet-male-performance",
+    "symbol": "pimp",
+    "name": "Peak Internet Male Performance"
+  },
+  {
     "id": "peanie",
     "symbol": "peanie",
     "name": "peanie"
@@ -63520,6 +63545,11 @@
     "name": "Plant"
   },
   {
+    "id": "plantfun",
+    "symbol": "plantfun",
+    "name": "Plantfun"
+  },
+  {
     "id": "plants-vs-ronke",
     "symbol": "pvr",
     "name": "Plants VS Ronke"
@@ -64243,6 +64273,11 @@
     "id": "polygon-hermez-bridged-usdc-polygon-zkevm",
     "symbol": "usdc",
     "name": "Polygon Hermez Bridged USDC (Polygon zkEVM)"
+  },
+  {
+    "id": "polygon-hermez-bridged-usdc-x-layer",
+    "symbol": "usdc",
+    "name": "Polygon Hermez Bridged USDC (X Layer)"
   },
   {
     "id": "polygon-hermez-bridged-usdt-polygon-zkevm",
@@ -84070,6 +84105,11 @@
     "name": "Tyche Protocol"
   },
   {
+    "id": "tycoon-by-shareland",
+    "symbol": "$tycoon",
+    "name": "Tycoon by Shareland"
+  },
+  {
     "id": "tyke-the-elephant",
     "symbol": "tyke",
     "name": "Tyke The Elephant"
@@ -85115,6 +85155,11 @@
     "name": "UPTOBER"
   },
   {
+    "id": "uptober-2",
+    "symbol": "uptober",
+    "name": "Uptober"
+  },
+  {
     "id": "up-token-2",
     "symbol": "up",
     "name": "uP Token"
@@ -85312,7 +85357,7 @@
   {
     "id": "usd-coin-bridged-zed20",
     "symbol": "usdc.z",
-    "name": "Zedxion Bridged USDC (Zedxion)"
+    "name": "ZEDX Bridged USDC (Zedxion)"
   },
   {
     "id": "usd-coin-celer",
