@@ -3855,6 +3855,11 @@
     "name": "AlphaDOGE"
   },
   {
+    "id": "alphaexchangeai",
+    "symbol": "aea",
+    "name": "AlphaExchangeAI"
+  },
+  {
     "id": "alpha-fi",
     "symbol": "alpha",
     "name": "Alpha Fi"
@@ -12732,7 +12737,7 @@
   {
     "id": "bob-network-bridged-usdce-bob-network",
     "symbol": "usdc.e",
-    "name": "BOB Network Bridged USDC.E (BOB Network)"
+    "name": "BOB Gateway Bridged USDC (BOB Network)"
   },
   {
     "id": "bob-network-bridged-usdt-bob-network",
@@ -14082,7 +14087,7 @@
   {
     "id": "bridged-axelar-wrapped-usd-coin-immutable-zkevm",
     "symbol": "axlusdc",
-    "name": "Bridged Axelar Wrapped USD Coin (Immutable zkEVM)"
+    "name": "Axelar Bridged USDC (Immutable zkEVM)"
   },
   {
     "id": "bridged-axelar-wrapped-usd-coin-scroll",
@@ -46267,7 +46272,7 @@
   {
     "id": "layerzero-bridged-usdc-etherlink",
     "symbol": "usdc",
-    "name": "Bridged USDC (Etherlink)"
+    "name": "Etherlink Bridged USDC (Etherlink)"
   },
   {
     "id": "layerzero-bridged-usdt-aptos",
@@ -54697,7 +54702,7 @@
   {
     "id": "most-bridged-usdc-aleph-zero",
     "symbol": "usdc",
-    "name": "Most Bridged USDC (Aleph Zero)"
+    "name": "MOST Bridged USDC (Aleph Zero)"
   },
   {
     "id": "most-bridged-weth-aleph-zero",
@@ -57625,6 +57630,11 @@
     "name": "NOME"
   },
   {
+    "id": "nomina",
+    "symbol": "nom",
+    "name": "Nomina"
+  },
+  {
     "id": "nominex",
     "symbol": "nmx",
     "name": "Nominex"
@@ -59087,7 +59097,7 @@
   {
     "id": "omni-network",
     "symbol": "omni",
-    "name": "Omni Network"
+    "name": "Omni Network [Old]"
   },
   {
     "id": "omnipair",
@@ -83488,6 +83498,11 @@
     "id": "truflation",
     "symbol": "truf",
     "name": "TRUF.Network"
+  },
+  {
+    "id": "trulink",
+    "symbol": "tru",
+    "name": "Trulink"
   },
   {
     "id": "trump-47",
