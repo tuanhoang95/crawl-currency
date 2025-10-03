@@ -14282,7 +14282,7 @@
   {
     "id": "bridged-usdc-chainport",
     "symbol": "usdc",
-    "name": "Bridged USDC (Chainport)"
+    "name": "Chainport Bridged USDC (Humanode)"
   },
   {
     "id": "bridged-usdc-core",
@@ -14342,7 +14342,7 @@
   {
     "id": "bridged-usdc-polygon-pos-bridge",
     "symbol": "usdc.e",
-    "name": "Bridged USDC (Polygon PoS Bridge)"
+    "name": "Polygon Bridged USDC (Polygon PoS)"
   },
   {
     "id": "bridged-usdc-xdc-bridge",
@@ -21928,6 +21928,11 @@
     "id": "cypepe",
     "symbol": "cypepe",
     "name": "CyPepe"
+  },
+  {
+    "id": "cypher-2",
+    "symbol": "cypr",
+    "name": "Cypher"
   },
   {
     "id": "cypher-ai-2",
@@ -38277,7 +38282,7 @@
   {
     "id": "heliswap-bridged-usdc-hts",
     "symbol": "usdc[hts]",
-    "name": "Bridged USDC (Hashport)"
+    "name": "Hashport Bridged USDC (Hedera)"
   },
   {
     "id": "helium",
@@ -91727,7 +91732,7 @@
   {
     "id": "wrapped-usdc-caviarnine",
     "symbol": "xusdc",
-    "name": "Instabridge Wrapped USDC (Radix)"
+    "name": "Instabridge Bridged USDC (Radix)"
   },
   {
     "id": "wrapped-usdm",
