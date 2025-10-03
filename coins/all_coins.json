@@ -15145,6 +15145,11 @@
     "name": "bullish"
   },
   {
+    "id": "bullish-degen",
+    "symbol": "bullish",
+    "name": "Bullish Degen"
+  },
+  {
     "id": "bullishmarketcap",
     "symbol": "$bmc",
     "name": "BullishMarketCap"
@@ -17327,7 +17332,7 @@
   {
     "id": "chain-key-usdc",
     "symbol": "ckusdc",
-    "name": "Chain-key USDC"
+    "name": "Chain-key Bridged USDC (ICP)"
   },
   {
     "id": "chain-key-usdt",
@@ -58107,7 +58112,7 @@
   {
     "id": "nova-usdc",
     "symbol": "usdc",
-    "name": "Nova Merged USDC (zkLink)"
+    "name": "zkLink Nova Merged Bridged USDC (zkLink Nova)"
   },
   {
     "id": "novawchi",
@@ -59543,6 +59548,11 @@
     "id": "opaium",
     "symbol": "opaium",
     "name": "Opaium"
+  },
+  {
+    "id": "opal-3",
+    "symbol": "opal",
+    "name": "Opal"
   },
   {
     "id": "opanarchy",
@@ -64445,6 +64455,11 @@
     "name": "Poly-Peg Mdex"
   },
   {
+    "id": "polypump",
+    "symbol": "polypump",
+    "name": "Polypump"
+  },
+  {
     "id": "polypup",
     "symbol": "pup",
     "name": "PolyPup"
@@ -64807,7 +64822,7 @@
   {
     "id": "pop-planet",
     "symbol": "p",
-    "name": "Pop Planet"
+    "name": "PoP Planet"
   },
   {
     "id": "poppy",
@@ -72057,7 +72072,7 @@
   {
     "id": "shadowtokens-bridged-usdc-elastos",
     "symbol": "ethusdc",
-    "name": "ShadowTokens Bridged USDC (Elastos)"
+    "name": "Shadow Token Bridged USDC (Elastos)"
   },
   {
     "id": "shadowtokens-bridged-wbnb-elastos-smart-chain",
@@ -76805,6 +76820,11 @@
     "name": "Staked Yearn Ether"
   },
   {
+    "id": "staked-yusd",
+    "symbol": "syusd",
+    "name": "Staked YUSD"
+  },
+  {
     "id": "stakehouse-keth",
     "symbol": "keth",
     "name": "Stakehouse kETH"
@@ -77168,6 +77188,11 @@
     "id": "static-hyperlend-hyperevm-whype-v2",
     "symbol": "stathhyperevmwhypev2",
     "name": "Static HyperLend HyperEVM WHYPE v2"
+  },
+  {
+    "id": "staticky",
+    "symbol": "$staticky",
+    "name": "StatiCKy"
   },
   {
     "id": "station-this",
@@ -94357,7 +94382,7 @@
   {
     "id": "zerobase",
     "symbol": "zbt",
-    "name": "Zerobase"
+    "name": "ZEROBASE"
   },
   {
     "id": "zerobyte",
