@@ -7271,8 +7271,8 @@
   },
   {
     "id": "axelar-bridged-usdc-cosmos",
-    "symbol": "usdc.axl",
-    "name": "Axelar Bridged USDC (Cosmos)"
+    "symbol": "usdc.eth.axl",
+    "name": "Axelar Bridged USDC (Osmosis)"
   },
   {
     "id": "axelar-bridged-wbnb-axelar",
@@ -9068,6 +9068,11 @@
     "id": "based-wojak",
     "symbol": "wojak",
     "name": "Based Wojak"
+  },
+  {
+    "id": "based-zlurpee",
+    "symbol": "zlurpee",
+    "name": "Based Zlurpee"
   },
   {
     "id": "basefrog",
@@ -11623,11 +11628,6 @@
     "id": "bkokfi",
     "symbol": "bkok",
     "name": "BKOKFi"
-  },
-  {
-    "id": "bl00p",
-    "symbol": "bl00p",
-    "name": "BL00P"
   },
   {
     "id": "bl0ck",
@@ -15288,11 +15288,6 @@
     "id": "bunni",
     "symbol": "bunni",
     "name": "Bunni"
-  },
-  {
-    "id": "bunnie",
-    "symbol": "$bun",
-    "name": "Bunnie"
   },
   {
     "id": "bunny-mev-bot",
@@ -19668,6 +19663,11 @@
     "id": "concierge-io",
     "symbol": "ava",
     "name": "AVA (Travala)"
+  },
+  {
+    "id": "concilium",
+    "symbol": "concilium",
+    "name": "Concilium"
   },
   {
     "id": "concordium",
@@ -26260,11 +26260,6 @@
     "name": "Dominium"
   },
   {
-    "id": "domin-network",
-    "symbol": "domin",
-    "name": "Domin Network"
-  },
-  {
     "id": "donaldcat",
     "symbol": "dc",
     "name": "DONALDCAT"
@@ -28438,11 +28433,6 @@
     "id": "elon-trump-fart",
     "symbol": "etf500",
     "name": "Elon Trump Fart"
-  },
-  {
-    "id": "elonxcat",
-    "symbol": "exc",
-    "name": "ElonXCat"
   },
   {
     "id": "elosys",
@@ -32200,6 +32190,11 @@
     "name": "Football Coin"
   },
   {
+    "id": "football-coin-2",
+    "symbol": "football",
+    "name": "Football Coin"
+  },
+  {
     "id": "football-world-community",
     "symbol": "fwc",
     "name": "Football World Community"
@@ -33058,6 +33053,11 @@
     "id": "fry",
     "symbol": "fry",
     "name": "Fry"
+  },
+  {
+    "id": "fsjal",
+    "symbol": "fsjal",
+    "name": "fsjal"
   },
   {
     "id": "fsn",
@@ -35693,6 +35693,11 @@
     "id": "gold8",
     "symbol": "gold8",
     "name": "GOLD8"
+  },
+  {
+    "id": "gold-8",
+    "symbol": "xau",
+    "name": "Gold"
   },
   {
     "id": "goldbrick",
@@ -45467,7 +45472,7 @@
   {
     "id": "kucoin-bridged-usdc-kucoin-community-chain",
     "symbol": "usdc",
-    "name": "Kucoin Bridged USDC (KuCoin Community Chain)"
+    "name": "KCC Bridged USDC (KuCoin Community Chain)"
   },
   {
     "id": "kucoin-bridged-usdt-kucoin-community-chain",
@@ -46351,7 +46356,7 @@
   },
   {
     "id": "layerzero-bridged-usdc-aptos",
-    "symbol": "zusdc",
+    "symbol": "usdc",
     "name": "LayerZero Bridged USDC (Aptos)"
   },
   {
@@ -52271,7 +52276,7 @@
   },
   {
     "id": "meter-passport-bridged-usdc-meter",
-    "symbol": "usdc",
+    "symbol": "usdc.eth",
     "name": "Meter Passport Bridged USDC (Meter)"
   },
   {
@@ -53893,11 +53898,6 @@
     "id": "mondo",
     "symbol": "mondo",
     "name": "mondo"
-  },
-  {
-    "id": "mondo-community-coin",
-    "symbol": "mndcc",
-    "name": "Mondo Community Coin"
   },
   {
     "id": "monerium-eur-money",
@@ -58685,11 +58685,6 @@
     "name": "OctanePay"
   },
   {
-    "id": "octaplex-network",
-    "symbol": "plx",
-    "name": "Octaplex Network"
-  },
-  {
     "id": "octaspace",
     "symbol": "octa",
     "name": "OctaSpace"
@@ -63473,11 +63468,6 @@
     "id": "piteas",
     "symbol": "pts",
     "name": "Piteas"
-  },
-  {
-    "id": "pitty-the-pitbull",
-    "symbol": "pitty",
-    "name": "Pitty the Pitbull"
   },
   {
     "id": "pivx",
@@ -90230,11 +90220,6 @@
     "name": "Wrapped Bitcoin"
   },
   {
-    "id": "wrapped-bitcoin-celer",
-    "symbol": "cewbtc",
-    "name": "Wrapped Bitcoin - Celer"
-  },
-  {
     "id": "wrapped-bitcoin-fuse",
     "symbol": "wbtcv2",
     "name": "Wrapped BTC (Fuse)"
@@ -90288,11 +90273,6 @@
     "id": "wrapped-bnb-21-co",
     "symbol": "21bnb",
     "name": "21.co Wrapped BNB"
-  },
-  {
-    "id": "wrapped-bnb-celer",
-    "symbol": "cewbnb",
-    "name": "Wrapped BNB - Celer"
   },
   {
     "id": "wrapped-bnvda",
@@ -90628,11 +90608,6 @@
     "id": "wrapped-ether",
     "symbol": "wetc",
     "name": "Wrapped ETC"
-  },
-  {
-    "id": "wrapped-ether-celer",
-    "symbol": "ceweth",
-    "name": "Wrapped Ether - Celer"
   },
   {
     "id": "wrapped-ethereum-classic-universal",
