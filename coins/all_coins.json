@@ -14392,7 +14392,7 @@
   {
     "id": "bridged-usdt-core",
     "symbol": "usdt",
-    "name": "Bridged USDT (Core)"
+    "name": "CoreDAO Bridged USDT (Core)"
   },
   {
     "id": "bridged-usdt-immutable-zkevm",
@@ -39863,6 +39863,11 @@
     "id": "hybridge",
     "symbol": "bridge",
     "name": "HyBridge"
+  },
+  {
+    "id": "hybridge-bridged-link-hyperevm",
+    "symbol": "link0",
+    "name": "Hybridge Bridged LINK (HyperEVM)"
   },
   {
     "id": "hydra",
