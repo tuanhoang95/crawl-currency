@@ -7100,11 +7100,6 @@
     "name": "Avalanche Bridged DAI (Avalanche)"
   },
   {
-    "id": "avalanche-bridged-gho-avalanche",
-    "symbol": "gho",
-    "name": "Avalanche Bridged GHO (Avalanche)"
-  },
-  {
     "id": "avalanche-bridged-weth-avalanche",
     "symbol": "weth",
     "name": "Avalanche Bridged WETH (Avalanche)"
@@ -62490,6 +62485,11 @@
     "name": "Pege"
   },
   {
+    "id": "peipei-2",
+    "symbol": "佩佩",
+    "name": "Pepe on BnB"
+  },
+  {
     "id": "peipeicoin-vip",
     "symbol": "peipei",
     "name": "PeiPei"
@@ -65043,6 +65043,11 @@
     "id": "polygon-zkevm-bridged-wbtc-polygon-zkevm",
     "symbol": "wbtc",
     "name": "Polygon zkEVM Bridged WBTC (Polygon zkEVM)"
+  },
+  {
+    "id": "polygon-zkevm-bridged-wsteth-katana",
+    "symbol": "wsteth",
+    "name": "Polygon zkEVM Bridged wstETH (Katana)"
   },
   {
     "id": "polyhedra-network",
