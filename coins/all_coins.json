@@ -4685,11 +4685,6 @@
     "name": "ANGRYGUY"
   },
   {
-    "id": "anichess",
-    "symbol": "check",
-    "name": "Anichess"
-  },
-  {
     "id": "ani-grok-companion",
     "symbol": "ani",
     "name": "Ani Grok Companion"
@@ -31638,6 +31633,11 @@
     "id": "filecoin",
     "symbol": "fil",
     "name": "Filecoin"
+  },
+  {
+    "id": "filecoin-bridged-weth-filecoin",
+    "symbol": "weth",
+    "name": "Filecoin Bridged WETH (Filecoin)"
   },
   {
     "id": "filipcoin",
@@ -93133,6 +93133,11 @@
     "id": "wrapped-philip-morris-xstock",
     "symbol": "wpmx",
     "name": "Wrapped Philip Morris xStock"
+  },
+  {
+    "id": "wrapped-plume",
+    "symbol": "wplume",
+    "name": "Wrapped Plume"
   },
   {
     "id": "wrapped-pokt",
