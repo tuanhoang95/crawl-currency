@@ -39065,11 +39065,6 @@
     "name": "Hemi Bitcoin"
   },
   {
-    "id": "hemi-bridged-usdt-hemi",
-    "symbol": "usdt",
-    "name": "Hemi Bridged USDT (Hemi)"
-  },
-  {
     "id": "hemi-bridged-wbtc-hemi",
     "symbol": "wbtc",
     "name": "Hemi Bridged WBTC (Hemi)"
@@ -49588,6 +49583,11 @@
     "id": "lucia",
     "symbol": "lucia",
     "name": "LUCIA"
+  },
+  {
+    "id": "lucidum",
+    "symbol": "lucic",
+    "name": "Lucidum"
   },
   {
     "id": "luck-2",
@@ -78655,6 +78655,11 @@
     "name": "Stargate Bridged USDC (Vana)"
   },
   {
+    "id": "stargate-bridged-usdt",
+    "symbol": "usdt",
+    "name": "Stargate Bridged USDT"
+  },
+  {
     "id": "stargate-bridged-usdt0",
     "symbol": "usdt0",
     "name": "Stargate Bridged USDT0"
@@ -78678,11 +78683,6 @@
     "id": "stargate-bridged-usdt-plume",
     "symbol": "usdt",
     "name": "Stargate Bridged USDT (Plume)"
-  },
-  {
-    "id": "stargate-bridged-usdt-somnia",
-    "symbol": "usdt",
-    "name": "Stargate Bridged USDT (Somnia)"
   },
   {
     "id": "stargate-bridged-usdt-xdc",
@@ -94352,7 +94352,7 @@
   {
     "id": "xone-bridged-usdt-xone",
     "symbol": "usdt",
-    "name": "Xone Bridged USDT (Xone)"
+    "name": "RainLink Bridged USDT (Xone)"
   },
   {
     "id": "xonxrp",
