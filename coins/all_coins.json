@@ -40716,8 +40716,8 @@
   },
   {
     "id": "ibc-bridged-usdt",
-    "symbol": "usdt",
-    "name": "IBC Bridged USDT"
+    "symbol": "kavausdt",
+    "name": "IBC Bridged USDT (Sei)"
   },
   {
     "id": "ibc-index",
@@ -78108,11 +78108,6 @@
     "id": "stargate-bridged-usdc",
     "symbol": "usdc.e",
     "name": "Stargate Bridged USDC"
-  },
-  {
-    "id": "stargate-bridged-usdc-iota-evm",
-    "symbol": "usdt",
-    "name": "Stargate Bridged USDT (Iota EVM)"
   },
   {
     "id": "stargate-bridged-usdc-vana",
