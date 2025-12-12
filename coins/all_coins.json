@@ -86176,8 +86176,8 @@
   },
   {
     "id": "usd0-liquid-bond",
-    "symbol": "usd0++",
-    "name": "Staked USD0"
+    "symbol": "busd0",
+    "name": "Bond USD0"
   },
   {
     "id": "usd1",
@@ -86313,6 +86313,11 @@
     "id": "usde-2",
     "symbol": "usde",
     "name": "USDE (ERD)"
+  },
+  {
+    "id": "usde-arm-lp-token",
+    "symbol": "arm-susde-usde",
+    "name": "USDe ARM LP Token"
   },
   {
     "id": "usdebt",
