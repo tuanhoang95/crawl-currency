@@ -7240,11 +7240,6 @@
     "name": "Axelar Bridged Frax Ether"
   },
   {
-    "id": "axelar-bridged-usdc-blast",
-    "symbol": "axlusdc",
-    "name": "Axelar Bridged USDC (Blast)"
-  },
-  {
     "id": "axelar-bridged-usdc-cosmos",
     "symbol": "usdc.eth.axl",
     "name": "Axelar Bridged USDC (Osmosis)"
@@ -11340,6 +11335,11 @@
     "name": "BITCORN"
   },
   {
+    "id": "bitcos-pro",
+    "symbol": "bos",
+    "name": "Bitcos Pro"
+  },
+  {
     "id": "bitdao",
     "symbol": "bit",
     "name": "BitDAO"
@@ -14143,16 +14143,6 @@
     "id": "bridged-arbitrum-lightlink",
     "symbol": "arb.e",
     "name": "Bridged Arbitrum (Lightlink)"
-  },
-  {
-    "id": "bridged-axelar-wrapped-usd-coin-immutable-zkevm",
-    "symbol": "axlusdc",
-    "name": "Axelar Bridged USDC (Immutable zkEVM)"
-  },
-  {
-    "id": "bridged-axelar-wrapped-usd-coin-scroll",
-    "symbol": "axlusdc",
-    "name": "Bridged Axelar Wrapped USD Coin (Scroll)"
   },
   {
     "id": "bridged-binance-peg-ethereum-opbnb",
@@ -42078,6 +42068,11 @@
     "id": "jd-com-ondo-tokenized-stock",
     "symbol": "jdon",
     "name": "JD.com (Ondo Tokenized Stock)"
+  },
+  {
+    "id": "jeet-2",
+    "symbol": "jeet",
+    "name": "JEET"
   },
   {
     "id": "jeeteroo",
