@@ -33680,9 +33680,19 @@
     "name": "Gauntlet USDC Prime Morpho Vault"
   },
   {
+    "id": "gauntlet-usdt-balanced",
+    "symbol": "gtusdtb",
+    "name": "Gauntlet USDT Balanced"
+  },
+  {
     "id": "gauntlet-usdt-prime",
     "symbol": "gtusdtp",
     "name": "Gauntlet USDT PRIME V2"
+  },
+  {
+    "id": "gauntlet-weth-balanced",
+    "symbol": "gtwethb",
+    "name": "Gauntlet WETH Balanced"
   },
   {
     "id": "gauntlet-weth-prime",
@@ -55305,6 +55315,11 @@
     "name": "NanoMeter Bitcoin"
   },
   {
+    "id": "nansen-staked-sol",
+    "symbol": "nxsol",
+    "name": "Nansen Staked SOL"
+  },
+  {
     "id": "naoris",
     "symbol": "naoris",
     "name": "Naoris Protocol"
@@ -65892,7 +65907,7 @@
   {
     "id": "qie",
     "symbol": "qie",
-    "name": "QI Blockchain"
+    "name": "QIE Blockchain"
   },
   {
     "id": "qiswap",
