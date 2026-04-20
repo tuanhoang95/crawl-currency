@@ -44737,7 +44737,7 @@
   {
     "id": "lucky-cat-2",
     "symbol": "招财猫",
-    "name": "招财猫 (Lucky Cat)"
+    "name": "招财�� (Lucky Cat)"
   },
   {
     "id": "luckycoin",
@@ -51133,6 +51133,11 @@
     "id": "mythos",
     "symbol": "myth",
     "name": "Mythos"
+  },
+  {
+    "id": "mythos-router",
+    "symbol": "mythos",
+    "name": "Mythos Router"
   },
   {
     "id": "myx-finance",
@@ -66300,6 +66305,16 @@
     "name": "Shape"
   },
   {
+    "id": "shape-bridged-usdc-shape",
+    "symbol": "usdc.e",
+    "name": "Shape Bridged USDC (Shape)"
+  },
+  {
+    "id": "shape-bridged-weth-shape",
+    "symbol": "weth",
+    "name": "Shape Bridged WETH (Shape)"
+  },
+  {
     "id": "shapeshift-fox-token",
     "symbol": "fox",
     "name": "ShapeShift FOX"
@@ -73523,6 +73538,11 @@
     "id": "tardigrades-finance",
     "symbol": "trdg",
     "name": "TRDGtoken"
+  },
+  {
+    "id": "target",
+    "symbol": "trgt",
+    "name": "Target"
   },
   {
     "id": "targetwatch-bot",
@@ -84270,6 +84290,11 @@
     "name": "Wrapped Neverland AUSD"
   },
   {
+    "id": "wrapped-neverland-loaznd",
+    "symbol": "wnloaznd",
+    "name": "Wrapped Neverland loAZND"
+  },
+  {
     "id": "wrapped-neverland-usdc",
     "symbol": "wnusdc",
     "name": "Wrapped Neverland USDC"
@@ -84498,6 +84523,11 @@
     "id": "wrapped-sevilla-fc-kayen",
     "symbol": "wsevilla",
     "name": "Wrapped Sevilla FC (Kayen)"
+  },
+  {
+    "id": "wrapped-shape",
+    "symbol": "wshape",
+    "name": "Wrapped SHAPE"
   },
   {
     "id": "wrapped-shiden-network",
