@@ -30645,6 +30645,26 @@
     "name": "Galaxy Fox"
   },
   {
+    "id": "galaxy-usdc-quality",
+    "symbol": "eth:gusdcq",
+    "name": "Galaxy USDC Quality (Ethereum)"
+  },
+  {
+    "id": "galaxy-usdc-quality-base",
+    "symbol": "baseeth:gusdcq",
+    "name": "Galaxy USDC Quality (Base)"
+  },
+  {
+    "id": "galaxy-usdt-quality",
+    "symbol": "eth:gusdtq",
+    "name": "Galaxy USDT Quality"
+  },
+  {
+    "id": "galaxy-weth-quality",
+    "symbol": "eth:gwethq",
+    "name": "Galaxy WETH Quality"
+  },
+  {
     "id": "galeon",
     "symbol": "galeon",
     "name": "Galeon"
@@ -79923,6 +79943,11 @@
     "id": "vow-usd",
     "symbol": "vusd",
     "name": "Vow USD"
+  },
+  {
+    "id": "voxel-voyages",
+    "symbol": "voxel",
+    "name": "Voxel Voyages"
   },
   {
     "id": "voxense",
