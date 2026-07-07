@@ -1,0 +1,110 @@
+name: Scrape Vietnam Stocks
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "*/20 * * * *"
+      timezone: "Asia/Ho_Chi_Minh"
+
+# Không cho nhiều lượt crawl chứng khoán chạy đồng thời.
+concurrency:
+  group: scrape-vietnam-stocks
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    env:
+      TZ: Asia/Ho_Chi_Minh
+      PYTHONUNBUFFERED: "1"
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install playwright beautifulsoup4
+
+      - name: Install Chromium and system dependencies
+        run: |
+          python -m playwright install --with-deps chromium
+
+      - name: Run Vietnam stock scraper
+        run: |
+          python stocks/stocks.py
+
+      - name: Show generated data summary
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          output_file = Path("stocks/chung_khoan_vietstock.json")
+
+          if not output_file.exists():
+              raise FileNotFoundError(
+                  f"Không tìm thấy file kết quả: {output_file}"
+              )
+
+          with output_file.open(
+              "r",
+              encoding="utf-8",
+          ) as file:
+              data = json.load(file)
+
+          print(f"Last updated: {data.get('last_updated')}")
+          print(f"Total symbols: {data.get('count', 0)}")
+
+          exchange_counts = data.get(
+              "exchange_counts",
+              {},
+          )
+
+          for exchange, count in sorted(
+              exchange_counts.items()
+          ):
+              print(f"{exchange}: {count} mã")
+
+          errors = data.get("errors", [])
+
+          if errors:
+              print("Crawler errors:")
+
+              for error in errors:
+                  print(error)
+          PY
+
+      - name: Commit and push if changed
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add stocks/chung_khoan_vietstock.json
+
+          if git diff --cached --quiet; then
+            echo "Dữ liệu chứng khoán không thay đổi."
+            exit 0
+          fi
+
+          git commit -m "Update stock prices $(date +'%Y-%m-%d %H:%M:%S %Z')"
+
+          BRANCH="${GITHUB_REF_NAME:-main}"
+
+          git pull origin "$BRANCH" --rebase
+          git push origin "HEAD:$BRANCH"
