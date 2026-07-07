@@ -1,0 +1,49 @@
+name: Fetch Currency Rates
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 * * * *" # Chạy mỗi giờ một lần
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Run currency fetcher
+        run: python currencies/currencies.py
+
+      - name: Commit and push if changed
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add currencies/usd_rates.json
+
+          if git diff --cached --quiet; then
+            echo "Dữ liệu tỷ giá không thay đổi."
+            exit 0
+          fi
+
+          git commit -m "Update currency rates $(date +'%Y-%m-%d %H:%M:%S %Z')"
+
+          BRANCH="${GITHUB_REF_NAME:-main}"
+          git pull origin "$BRANCH" --rebase
+          git push origin "HEAD:$BRANCH"
