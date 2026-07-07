@@ -2,6 +2,7 @@ import json
 from datetime import datetime
 import os
 import re
+import time
 from playwright.sync_api import sync_playwright
 from bs4 import BeautifulSoup
 
@@ -20,10 +21,30 @@ def scrape_gold():
     try:
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)
-            page = browser.new_page(user_agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36')
+            context = browser.new_context(
+                user_agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+                viewport={'width': 1280, 'height': 800}
+            )
+            page = context.new_page()
+
+            # Chặn các tài nguyên không cần thiết
+            page.route("**/*.{png,jpg,jpeg,gif,svg,css,woff,woff2,ttf,otf}", lambda route: route.abort())
+
             print(f"Đang truy cập {url}...")
-            page.goto(url, wait_until="networkidle")
-            page.wait_for_selector("table")
+            # Sử dụng domcontentloaded để tránh timeout do chờ networkidle
+            response = page.goto(url, wait_until="domcontentloaded", timeout=60000)
+
+            if response.status != 200:
+                print(f"Lỗi: Trang web trả về status {response.status}")
+                browser.close()
+                return
+
+            # Đợi bảng xuất hiện
+            page.wait_for_selector("table", timeout=20000)
+
+            # Đợi thêm một chút để chắc chắn data render xong
+            time.sleep(2)
+
             content = page.content()
             browser.close()
 
@@ -38,8 +59,14 @@ def scrape_gold():
             brand_td = row.find('td', rowspan=True)
             if brand_td:
                 img = brand_td.find('img')
+                # Nếu chặn ảnh, src có thể không lấy được qua HTML render,
+                # nhưng BeautifulSoup lấy từ page.content() vẫn sẽ có các thuộc tính nguyên bản.
                 src = img.attrs.get('src', '').lower() if img else ""
-                current_brand = "btmc" if ('vrtl' in src or 'btm' in src) else "other"
+                if not src and brand_td.get_text():
+                    brand_text = brand_td.get_text().lower()
+                    current_brand = "btmc" if 'bao tin minh chau' in remove_accents(brand_text) else "other"
+                else:
+                    current_brand = "btmc" if ('vrtl' in src or 'btm' in src) else "other"
 
             if current_brand != "btmc": continue
 
@@ -57,9 +84,13 @@ def scrape_gold():
 
         if data:
             result = {"last_updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "source": url, "source_id": source_id, "prices": data}
-            with open(os.path.join(os.path.dirname(__file__), 'vang_btmc.json'), 'w', encoding='utf-8') as f:
+            script_dir = os.path.dirname(os.path.abspath(__file__))
+            with open(os.path.join(script_dir, 'vang_btmc.json'), 'w', encoding='utf-8') as f:
                 json.dump(result, f, ensure_ascii=False, indent=2)
             print(f"Thành công! Đã cập nhật Vàng BTMC ({len(data)} mã).")
+        else:
+            print("Không tìm thấy dữ liệu sau khi parse HTML.")
+
     except Exception as e:
         print(f"Lỗi Vàng BTMC: {e}")
 
