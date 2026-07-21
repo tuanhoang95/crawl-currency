@@ -42305,6 +42305,16 @@
     "name": "KTON"
   },
   {
+    "id": "kub-bridged-usdc-kub",
+    "symbol": "usdc.e",
+    "name": "KUB Bridged USDC (KUB)"
+  },
+  {
+    "id": "kub-bridged-usdt-kub",
+    "symbol": "usdt",
+    "name": "KUB Bridged USDT (KUB)"
+  },
+  {
     "id": "kucoin-bridged-usdc-kucoin-community-chain",
     "symbol": "usdc",
     "name": "KCC Bridged USDC (KuCoin Community Chain)"
@@ -84833,6 +84843,11 @@
     "id": "wrapped-krown",
     "symbol": "wkrown",
     "name": "Wrapped Krown"
+  },
+  {
+    "id": "wrapped-kub",
+    "symbol": "kkub",
+    "name": "Wrapped KUB"
   },
   {
     "id": "wrapped-libertas-omnibus",
