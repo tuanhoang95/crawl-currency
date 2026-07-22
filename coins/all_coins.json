@@ -4815,9 +4815,29 @@
     "name": "Ants Colony"
   },
   {
+    "id": "anubis-bridged-bnb-anubis",
+    "symbol": "bnb",
+    "name": "Anubis Bridged BNB (Anubis)"
+  },
+  {
     "id": "anubis-bridged-dai-anubis",
     "symbol": "dai",
     "name": "Anubis Bridged DAI (Anubis)"
+  },
+  {
+    "id": "anubis-bridged-eth-anubis",
+    "symbol": "eth",
+    "name": "Anubis Bridged ETH (Anubis)"
+  },
+  {
+    "id": "anubis-bridged-lgns-anubis",
+    "symbol": "lgns",
+    "name": "Anubis Bridged LGNS (Anubis)"
+  },
+  {
+    "id": "anubis-bridged-pol-anubis",
+    "symbol": "pol",
+    "name": "Anubis Bridged POL (Anubis)"
   },
   {
     "id": "anubis-bridged-usdc-anubis",
@@ -17426,7 +17446,7 @@
   },
   {
     "id": "claim-your-red-envelope-now",
-    "symbol": "马上领红��",
+    "symbol": "马上领红包",
     "name": "马上领红包 (Claim Your Red Envelope Now)"
   },
   {
@@ -72305,6 +72325,11 @@
     "name": "Strata Junior NUSD"
   },
   {
+    "id": "strata-junior-usdat",
+    "symbol": "jrusdat",
+    "name": "Strata Junior USDat"
+  },
+  {
     "id": "strata-junior-usde",
     "symbol": "jrusde",
     "name": "Strata Junior USDe"
@@ -72323,6 +72348,11 @@
     "id": "strata-senior-nusd",
     "symbol": "srnusd",
     "name": "Strata Senior NUSD"
+  },
+  {
+    "id": "strata-senior-usdat",
+    "symbol": "srusdat",
+    "name": "Strata Senior USDat"
   },
   {
     "id": "strata-senior-usde",
