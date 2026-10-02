@@ -597,7 +597,7 @@
   {
     "id": "-5",
     "symbol": "🟥🟩",
-    "name": "🟥🟪🟦🟩🟨🟧"
+    "name": "🟥🟪🟦🟩🟨��"
   },
   {
     "id": "501-token",
@@ -11840,6 +11840,11 @@
     "name": "Beluga.fi"
   },
   {
+    "id": "bem-2",
+    "symbol": "bem",
+    "name": "BEM"
+  },
+  {
     "id": "bemo-staked-ton",
     "symbol": "stton",
     "name": "bemo Staked TON"
@@ -17113,6 +17118,11 @@
     "id": "btc-2x-flexible-leverage-index",
     "symbol": "btc2x-fli",
     "name": "BTC 2x Flexible Leverage Index"
+  },
+  {
+    "id": "btc-concrete-custodial-asset",
+    "symbol": "btccx",
+    "name": "BTC Concrete Custodial Asset"
   },
   {
     "id": "btcmobick",
@@ -78200,6 +78210,11 @@
     "name": "Revolut Euro"
   },
   {
+    "id": "revolut-gbp",
+    "symbol": "gbpr",
+    "name": "Revolut GBP"
+  },
+  {
     "id": "revolution-medicines-rstock",
     "symbol": "rrvmd",
     "name": "Revolution Medicines Tokenized Stock (Reality)"
@@ -103915,6 +103930,16 @@
     "name": "Wrapped Aave Base wstETH"
   },
   {
+    "id": "wrapped-aave-ethereum-dai",
+    "symbol": "waethdai",
+    "name": "Wrapped Aave Ethereum DAI"
+  },
+  {
+    "id": "wrapped-aave-ethereum-eurc",
+    "symbol": "waetheurc",
+    "name": "Wrapped Aave Ethereum EURC"
+  },
+  {
     "id": "wrapped-aave-ethereum-lido-gho",
     "symbol": "waethlidogho",
     "name": "Wrapped Aave Ethereum Lido GHO"
@@ -103938,6 +103963,11 @@
     "id": "wrapped-aave-ethereum-usdc",
     "symbol": "waethusdc",
     "name": "Wrapped Aave Ethereum USDC"
+  },
+  {
+    "id": "wrapped-aave-ethereum-usde",
+    "symbol": "waethusde",
+    "name": "Wrapped Aave Ethereum USDe"
   },
   {
     "id": "wrapped-aave-ethereum-usdt",
