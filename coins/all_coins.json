@@ -1780,6 +1780,11 @@
     "name": "Access Protocol"
   },
   {
+    "id": "accred",
+    "symbol": "cred",
+    "name": "Accred"
+  },
+  {
     "id": "accrued",
     "symbol": "accr",
     "name": "Accrued"
@@ -7063,6 +7068,26 @@
     "id": "arcus-btc-3x-short",
     "symbol": "sbtc3x",
     "name": "Arcus BTC (3x Short)"
+  },
+  {
+    "id": "arcus-gld-5x-long",
+    "symbol": "pgld5x",
+    "name": "Arcus GLD (5x Long)"
+  },
+  {
+    "id": "arcus-gld-5x-short",
+    "symbol": "sgld5x",
+    "name": "Arcus GLD (5x Short)"
+  },
+  {
+    "id": "arcus-gme-5x-long",
+    "symbol": "pgme5x",
+    "name": "Arcus GME (5x Long)"
+  },
+  {
+    "id": "arcus-gme-5x-short",
+    "symbol": "sgme5x",
+    "name": "Arcus GME (5x Short)"
   },
   {
     "id": "arcus-hood-3x-long",
@@ -14301,7 +14326,7 @@
   },
   {
     "id": "blizzard-2",
-    "symbol": "暴雪",
+    "symbol": "���雪",
     "name": "暴雪 (Blizzard)"
   },
   {
@@ -30860,6 +30885,11 @@
     "name": "Dynamic Crypto Index"
   },
   {
+    "id": "dynamite-2",
+    "symbol": "dynamite",
+    "name": "DYNAMITE"
+  },
+  {
     "id": "dynamix",
     "symbol": "dyna",
     "name": "Dynamix"
@@ -40300,6 +40330,11 @@
     "name": "🌻ᔕᒪᑌGᒪOᖇᗪ🌻"
   },
   {
+    "id": "goaldaddy",
+    "symbol": "jugs",
+    "name": "GoalDaddy"
+  },
+  {
     "id": "goat-bridged-binance-bitcoin-goat",
     "symbol": "btcb",
     "name": "Goat Bridged Binance Bitcoin (Goat)"
@@ -40823,6 +40858,11 @@
     "id": "gold-standard",
     "symbol": "bar",
     "name": "Gold Standard"
+  },
+  {
+    "id": "goldstein",
+    "symbol": "gldstn",
+    "name": "Goldstein"
   },
   {
     "id": "gold-token",
@@ -44553,6 +44593,11 @@
     "id": "hooked-protocol",
     "symbol": "hook",
     "name": "Hooked Protocol"
+  },
+  {
+    "id": "hookit",
+    "symbol": "hkt",
+    "name": "HOOKIT"
   },
   {
     "id": "hookr-fun",
@@ -75695,6 +75740,11 @@
     "name": "QiUSD"
   },
   {
+    "id": "qi-yue-jing-shen",
+    "symbol": "pact",
+    "name": "契约精神"
+  },
+  {
     "id": "qjuno",
     "symbol": "qjuno",
     "name": "qJUNO"
@@ -82098,6 +82148,11 @@
     "id": "seeker",
     "symbol": "skr",
     "name": "Seeker"
+  },
+  {
+    "id": "seeker-cat",
+    "symbol": "seecat",
+    "name": "Seeker Cat"
   },
   {
     "id": "seek-tiger",
@@ -94813,6 +94868,11 @@
     "id": "tjx-companies-xstock",
     "symbol": "tjxx",
     "name": "TJX Companies xStock"
+  },
+  {
+    "id": "tkn247",
+    "symbol": "tkn247",
+    "name": "TKN247"
   },
   {
     "id": "tknz-fun",
