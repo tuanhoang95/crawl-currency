@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-05T20:32:13+07:00",
+  "last_updated": "2026-11-06T03:51:18+07:00",
   "source": "https://banggia.vietstock.vn",
   "source_id": "chung_khoan_vietstock",
   "currency": "VND",
@@ -592,7 +592,7 @@
       "product_id": "chung_khoan_vietstock_cap",
       "asset_type": "Chứng khoán",
       "symbol": "CAP",
-      "product_name": "CTCP Lâm Nông sản Thực phẩm Yên Bái CAP - Họp ĐHĐCĐ thường niên năm 2026 Ngày GD không hưởng quyền: 05/11/2026",
+      "product_name": "CTCP Lâm Nông sản Thực phẩm Yên Bái",
       "exchange": "HNX",
       "unit": "Cổ phiếu",
       "current": 30000,
@@ -608,7 +608,7 @@
       "change_percent": -2.3,
       "currency": "VND",
       "price_unit": "VND/cổ phiếu",
-      "status": "has_event",
+      "status": "normal",
       "source": "https://banggia.vietstock.vn/bang-gia/hnx"
     },
     {
@@ -1696,7 +1696,7 @@
       "product_id": "chung_khoan_vietstock_gmx",
       "asset_type": "Chứng khoán",
       "symbol": "GMX",
-      "product_name": "CTCP Gạch ngói Gốm Xây dựng Mỹ Xuân",
+      "product_name": "CTCP Gạch ngói Gốm Xây dựng Mỹ Xuân GMX - Trả cổ tức đợt 2/2026 bằng tiền, 600 đồng/CP Ngày GD không hưởng quyền: 11/11/2026",
       "exchange": "HNX",
       "unit": "Cổ phiếu",
       "current": 10000,
@@ -1712,7 +1712,7 @@
       "change_percent": -0.6,
       "currency": "VND",
       "price_unit": "VND/cổ phiếu",
-      "status": "normal",
+      "status": "has_event",
       "source": "https://banggia.vietstock.vn/bang-gia/hnx"
     },
     {
@@ -2041,7 +2041,7 @@
       "product_id": "chung_khoan_vietstock_hmr",
       "asset_type": "Chứng khoán",
       "symbol": "HMR",
-      "product_name": "CTCP Đá Hoàng Mai HMR - Lấy ý kiến cổ đông bằng văn bản năm 2026 Ngày GD không hưởng quyền: 05/11/2026",
+      "product_name": "CTCP Đá Hoàng Mai",
       "exchange": "HNX",
       "unit": "Cổ phiếu",
       "current": 8900,
@@ -2057,7 +2057,7 @@
       "change_percent": null,
       "currency": "VND",
       "price_unit": "VND/cổ phiếu",
-      "status": "has_event",
+      "status": "normal",
       "source": "https://banggia.vietstock.vn/bang-gia/hnx"
     },
     {
@@ -3467,7 +3467,7 @@
       "product_id": "chung_khoan_vietstock_och",
       "asset_type": "Chứng khoán",
       "symbol": "OCH",
-      "product_name": "CTCP One Capital Hospitality OCH - Niêm yết cổ phiếu bổ sung - 130,000,000 CP Ngày thực hiện: 05/11/2026",
+      "product_name": "CTCP One Capital Hospitality",
       "exchange": "HNX",
       "unit": "Cổ phiếu",
       "current": 7100,
@@ -3483,7 +3483,7 @@
       "change_percent": null,
       "currency": "VND",
       "price_unit": "VND/cổ phiếu",
-      "status": "has_event",
+      "status": "warning_or_suspended",
       "source": "https://banggia.vietstock.vn/bang-gia/hnx"
     },
     {
@@ -3950,7 +3950,7 @@
       "product_id": "chung_khoan_vietstock_ppe",
       "asset_type": "Chứng khoán",
       "symbol": "PPE",
-      "product_name": "CTCP Tư vấn đầu tư PP Enterprise PPE - Họp ĐHĐCĐ bất thường năm 2026 lần 2 Ngày GD không hưởng quyền: 05/11/2026",
+      "product_name": "CTCP Tư vấn đầu tư PP Enterprise",
       "exchange": "HNX",
       "unit": "Cổ phiếu",
       "current": 30000,
@@ -3966,7 +3966,7 @@
       "change_percent": -4.6,
       "currency": "VND",
       "price_unit": "VND/cổ phiếu",
-      "status": "has_event",
+      "status": "warning_or_suspended",
       "source": "https://banggia.vietstock.vn/bang-gia/hnx"
     },
     {
@@ -5031,7 +5031,7 @@
       "product_id": "chung_khoan_vietstock_sje",
       "asset_type": "Chứng khoán",
       "symbol": "SJE",
-      "product_name": "CTCP Sông Đà 11 SJE - Họp ĐHĐCĐ bất thường năm 2026 Ngày GD không hưởng quyền: 05/11/2026",
+      "product_name": "CTCP Sông Đà 11",
       "exchange": "HNX",
       "unit": "Cổ phiếu",
       "current": 2500,
@@ -5047,7 +5047,7 @@
       "change_percent": -3.1,
       "currency": "VND",
       "price_unit": "VND/cổ phiếu",
-      "status": "has_event",
+      "status": "normal",
       "source": "https://banggia.vietstock.vn/bang-gia/hnx"
     },
     {
@@ -6825,7 +6825,7 @@
       "product_id": "chung_khoan_vietstock_wcs",
       "asset_type": "Chứng khoán",
       "symbol": "WCS",
-      "product_name": "CTCP Bến xe Miền Tây",
+      "product_name": "CTCP Bến xe Miền Tây WCS - Trả cổ tức năm 2025 bằng tiền, 5,000 đồng/CP Ngày GD không hưởng quyền: 11/11/2026",
       "exchange": "HNX",
       "unit": "Cổ phiếu",
       "current": 283000,
@@ -6841,7 +6841,7 @@
       "change_percent": null,
       "currency": "VND",
       "price_unit": "VND/cổ phiếu",
-      "status": "normal",
+      "status": "has_event",
       "source": "https://banggia.vietstock.vn/bang-gia/hnx"
     },
     {
@@ -8527,7 +8527,7 @@
       "product_id": "chung_khoan_vietstock_ctr",
       "asset_type": "Chứng khoán",
       "symbol": "CTR",
-      "product_name": "Tổng Công ty cổ phần Công trình Viettel",
+      "product_name": "Tổng Công ty cổ phần Công trình Viettel CTR - Họp ĐHĐCĐ bất thường năm 2026 Ngày GD không hưởng quyền: 11/11/2026",
       "exchange": "HOSE",
       "unit": "Cổ phiếu",
       "current": 10000,
@@ -8543,7 +8543,7 @@
       "change_percent": -1.8,
       "currency": "VND",
       "price_unit": "VND/cổ phiếu",
-      "status": "normal",
+      "status": "has_event",
       "source": "https://banggia.vietstock.vn/bang-gia/hose"
     },
     {
@@ -9470,7 +9470,7 @@
       "product_id": "chung_khoan_vietstock_eco",
       "asset_type": "Chứng khoán",
       "symbol": "ECO",
-      "product_name": "CTCP Nhựa sinh thái Việt Nam ECO - Trả cổ tức năm 2025 bằng cổ phiếu, tỷ lệ 50:3 Ngày GD không hưởng quyền: 05/11/2026",
+      "product_name": "CTCP Nhựa sinh thái Việt Nam",
       "exchange": "HOSE",
       "unit": "Cổ phiếu",
       "current": 18750,
@@ -9486,7 +9486,7 @@
       "change_percent": null,
       "currency": "VND",
       "price_unit": "VND/cổ phiếu",
-      "status": "has_event",
+      "status": "normal",
       "source": "https://banggia.vietstock.vn/bang-gia/hose"
     },
     {
@@ -10528,7 +10528,7 @@
       "product_id": "chung_khoan_vietstock_hpa",
       "asset_type": "Chứng khoán",
       "symbol": "HPA",
-      "product_name": "CTCP Phát triển Nông nghiệp Hòa Phát",
+      "product_name": "CTCP Phát triển Nông nghiệp Hòa Phát HPA - Trả cổ tức năm 2026 bằng tiền, 1,800 đồng/CP Ngày GD không hưởng quyền: 11/11/2026",
       "exchange": "HOSE",
       "unit": "Cổ phiếu",
       "current": 30000,
@@ -10544,7 +10544,7 @@
       "change_percent": 0.9,
       "currency": "VND",
       "price_unit": "VND/cổ phiếu",
-      "status": "normal",
+      "status": "has_event",
       "source": "https://banggia.vietstock.vn/bang-gia/hose"
     },
     {
@@ -11149,7 +11149,7 @@
       "product_id": "chung_khoan_vietstock_kdh",
       "asset_type": "Chứng khoán",
       "symbol": "KDH",
-      "product_name": "CTCP Đầu tư và Kinh doanh Nhà Khang Điền",
+      "product_name": "CTCP Đầu tư và Kinh doanh Nhà Khang Điền KDH - Giao dịch bổ sung - 112,218,805 CP Ngày thực hiện: 11/11/2026",
       "exchange": "HOSE",
       "unit": "Cổ phiếu",
       "current": 80000,
@@ -11165,7 +11165,7 @@
       "change_percent": 4,
       "currency": "VND",
       "price_unit": "VND/cổ phiếu",
-      "status": "normal",
+      "status": "has_event",
       "source": "https://banggia.vietstock.vn/bang-gia/hose"
     },
     {
@@ -12460,7 +12460,7 @@
       "product_id": "chung_khoan_vietstock_pdn",
       "asset_type": "Chứng khoán",
       "symbol": "PDN",
-      "product_name": "CTCP Cảng Đồng Nai",
+      "product_name": "CTCP Cảng Đồng Nai PDN - Lấy ý kiến cổ đông bằng văn bản năm 2026 Ngày GD không hưởng quyền: 11/11/2026",
       "exchange": "HOSE",
       "unit": "Cổ phiếu",
       "current": 10000,
@@ -12476,7 +12476,7 @@
       "change_percent": -0.1,
       "currency": "VND",
       "price_unit": "VND/cổ phiếu",
-      "status": "normal",
+      "status": "has_event",
       "source": "https://banggia.vietstock.vn/bang-gia/hose"
     },
     {
@@ -12874,7 +12874,7 @@
       "product_id": "chung_khoan_vietstock_ppc",
       "asset_type": "Chứng khoán",
       "symbol": "PPC",
-      "product_name": "CTCP Nhiệt điện Phả Lại",
+      "product_name": "CTCP Nhiệt điện Phả Lại PPC - Trả cổ tức năm 2025 bằng tiền, 450 đồng/CP Ngày GD không hưởng quyền: 11/11/2026",
       "exchange": "HOSE",
       "unit": "Cổ phiếu",
       "current": 8710,
@@ -12890,7 +12890,7 @@
       "change_percent": null,
       "currency": "VND",
       "price_unit": "VND/cổ phiếu",
-      "status": "normal",
+      "status": "has_event",
       "source": "https://banggia.vietstock.vn/bang-gia/hose"
     },
     {
@@ -14116,7 +14116,7 @@
       "product_id": "chung_khoan_vietstock_szl",
       "asset_type": "Chứng khoán",
       "symbol": "SZL",
-      "product_name": "CTCP Sonadezi Long Thành SZL - Giao dịch bổ sung - 19,846,544 CP Ngày thực hiện: 05/11/2026",
+      "product_name": "CTCP Sonadezi Long Thành",
       "exchange": "HOSE",
       "unit": "Cổ phiếu",
       "current": 60000,
@@ -14132,7 +14132,7 @@
       "change_percent": 0.7,
       "currency": "VND",
       "price_unit": "VND/cổ phiếu",
-      "status": "has_event",
+      "status": "normal",
       "source": "https://banggia.vietstock.vn/bang-gia/hose"
     },
     {
@@ -15749,7 +15749,7 @@
       "product_id": "chung_khoan_vietstock_vnm",
       "asset_type": "Chứng khoán",
       "symbol": "VNM",
-      "product_name": "CTCP Sữa Việt Nam",
+      "product_name": "CTCP Sữa Việt Nam VNM - Trả cổ tức đợt 1/2026 bằng tiền, 2,500 đồng/CP Ngày GD không hưởng quyền: 11/11/2026",
       "exchange": "HOSE",
       "unit": "Cổ phiếu",
       "current": 10000,
@@ -15765,7 +15765,7 @@
       "change_percent": 0.2,
       "currency": "VND",
       "price_unit": "VND/cổ phiếu",
-      "status": "normal",
+      "status": "has_event",
       "source": "https://banggia.vietstock.vn/bang-gia/hose"
     },
     {
@@ -27088,7 +27088,7 @@
       "product_id": "chung_khoan_vietstock_pai",
       "asset_type": "Chứng khoán",
       "symbol": "PAI",
-      "product_name": "CTCP Công nghệ thông tin Viễn thông và Tự động hóa Dầu Khí",
+      "product_name": "CTCP Công nghệ thông tin Viễn thông và Tự động hóa Dầu Khí PAI - Trả cổ tức năm 2025 bằng tiền, 800 đồng/CP Ngày GD không hưởng quyền: 11/11/2026",
       "exchange": "UPCOM",
       "unit": "Cổ phiếu",
       "current": 10300,
@@ -27104,7 +27104,7 @@
       "change_percent": null,
       "currency": "VND",
       "price_unit": "VND/cổ phiếu",
-      "status": "normal",
+      "status": "has_event",
       "source": "https://banggia.vietstock.vn/bang-gia/upcom"
     },
     {
@@ -27249,7 +27249,7 @@
       "product_id": "chung_khoan_vietstock_pcc",
       "asset_type": "Chứng khoán",
       "symbol": "PCC",
-      "product_name": "CTCP Tập đoàn Xây lắp 1 - Petrolimex PCC - Trả cổ tức năm 2025 bằng tiền, 1,500 đồng/CP Ngày GD không hưởng quyền: 05/11/2026",
+      "product_name": "CTCP Tập đoàn Xây lắp 1 - Petrolimex",
       "exchange": "UPCOM",
       "unit": "Cổ phiếu",
       "current": 10000,
@@ -27265,7 +27265,7 @@
       "change_percent": 12.7,
       "currency": "VND",
       "price_unit": "VND/cổ phiếu",
-      "status": "has_event",
+      "status": "normal",
       "source": "https://banggia.vietstock.vn/bang-gia/upcom"
     },
     {
@@ -28813,7 +28813,7 @@
       "product_id": "chung_khoan_vietstock_qnt",
       "asset_type": "Chứng khoán",
       "symbol": "QNT",
-      "product_name": "CTCP Tư vấn và Đầu tư Phát triển Quảng Nam QNT - Họp ĐHĐCĐ bất thường năm 2026 Ngày GD không hưởng quyền: 05/11/2026",
+      "product_name": "CTCP Tư vấn và Đầu tư Phát triển Quảng Nam",
       "exchange": "UPCOM",
       "unit": "Cổ phiếu",
       "current": 8500,
@@ -28829,7 +28829,7 @@
       "change_percent": null,
       "currency": "VND",
       "price_unit": "VND/cổ phiếu",
-      "status": "has_event",
+      "status": "normal",
       "source": "https://banggia.vietstock.vn/bang-gia/upcom"
     },
     {
@@ -28928,7 +28928,7 @@
       "product_id": "chung_khoan_vietstock_qtp",
       "asset_type": "Chứng khoán",
       "symbol": "QTP",
-      "product_name": "CTCP Nhiệt điện Quảng Ninh QTP - Trả cổ tức năm 2026 bằng tiền, 700 đồng/CP Ngày GD không hưởng quyền: 05/11/2026",
+      "product_name": "CTCP Nhiệt điện Quảng Ninh",
       "exchange": "UPCOM",
       "unit": "Cổ phiếu",
       "current": 10000,
@@ -28944,7 +28944,7 @@
       "change_percent": 1,
       "currency": "VND",
       "price_unit": "VND/cổ phiếu",
-      "status": "has_event",
+      "status": "normal",
       "source": "https://banggia.vietstock.vn/bang-gia/upcom"
     },
     {
@@ -30837,7 +30837,7 @@
       "product_id": "chung_khoan_vietstock_tbd",
       "asset_type": "Chứng khoán",
       "symbol": "TBD",
-      "product_name": "Tổng Công ty Thiết bị Điện Đông Anh - CTCP TBD - Thưởng cổ phiếu, tỷ lệ 2:1 Ngày GD không hưởng quyền: 05/11/2026",
+      "product_name": "Tổng Công ty Thiết bị Điện Đông Anh - CTCP",
       "exchange": "UPCOM",
       "unit": "Cổ phiếu",
       "current": 63100,
@@ -30853,7 +30853,7 @@
       "change_percent": null,
       "currency": "VND",
       "price_unit": "VND/cổ phiếu",
-      "status": "has_event",
+      "status": "normal",
       "source": "https://banggia.vietstock.vn/bang-gia/upcom"
     },
     {
@@ -31711,7 +31711,7 @@
       "product_id": "chung_khoan_vietstock_trs",
       "asset_type": "Chứng khoán",
       "symbol": "TRS",
-      "product_name": "CTCP Vận tải và Dịch vụ Hàng hải TRS - Giao dịch bổ sung - 1,126,726 CP Ngày thực hiện: 05/11/2026",
+      "product_name": "CTCP Vận tải và Dịch vụ Hàng hải",
       "exchange": "UPCOM",
       "unit": "Cổ phiếu",
       "current": 27100,
@@ -31727,7 +31727,7 @@
       "change_percent": null,
       "currency": "VND",
       "price_unit": "VND/cổ phiếu",
-      "status": "has_event",
+      "status": "normal",
       "source": "https://banggia.vietstock.vn/bang-gia/upcom"
     },
     {
@@ -32033,7 +32033,7 @@
       "product_id": "chung_khoan_vietstock_ttz",
       "asset_type": "Chứng khoán",
       "symbol": "TTZ",
-      "product_name": "CTCP Đầu tư Xây dựng và Công nghệ Tiến Trung TTZ - Họp ĐHĐCĐ thường niên năm 2026 Ngày GD không hưởng quyền: 05/11/2026",
+      "product_name": "CTCP Đầu tư Xây dựng và Công nghệ Tiến Trung",
       "exchange": "UPCOM",
       "unit": "Cổ phiếu",
       "current": 1800,
@@ -32049,7 +32049,7 @@
       "change_percent": null,
       "currency": "VND",
       "price_unit": "VND/cổ phiếu",
-      "status": "has_event",
+      "status": "warning_or_suspended",
       "source": "https://banggia.vietstock.vn/bang-gia/upcom"
     },
     {
@@ -32102,7 +32102,7 @@
       "product_id": "chung_khoan_vietstock_tv6",
       "asset_type": "Chứng khoán",
       "symbol": "TV6",
-      "product_name": "CTCP Tập đoàn EMA Land TV6 - Trả cổ tức năm 2025 bằng cổ phiếu, tỷ lệ 20:3 Ngày GD không hưởng quyền: 05/11/2026",
+      "product_name": "CTCP Tập đoàn EMA Land",
       "exchange": "UPCOM",
       "unit": "Cổ phiếu",
       "current": 5600,
@@ -32118,7 +32118,7 @@
       "change_percent": null,
       "currency": "VND",
       "price_unit": "VND/cổ phiếu",
-      "status": "has_event",
+      "status": "normal",
       "source": "https://banggia.vietstock.vn/bang-gia/upcom"
     },
     {
@@ -33666,7 +33666,7 @@
       "product_id": "chung_khoan_vietstock_vmk",
       "asset_type": "Chứng khoán",
       "symbol": "VMK",
-      "product_name": "CTCP Vimarko VMK - Trả cổ tức năm 2025 bằng cổ phiếu, tỷ lệ 100:6 Ngày GD không hưởng quyền: 05/11/2026",
+      "product_name": "CTCP Vimarko",
       "exchange": "UPCOM",
       "unit": "Cổ phiếu",
       "current": 19800,
@@ -33682,7 +33682,7 @@
       "change_percent": null,
       "currency": "VND",
       "price_unit": "VND/cổ phiếu",
-      "status": "has_event",
+      "status": "normal",
       "source": "https://banggia.vietstock.vn/bang-gia/upcom"
     },
     {
@@ -33919,7 +33919,7 @@
       "product_id": "chung_khoan_vietstock_vpc",
       "asset_type": "Chứng khoán",
       "symbol": "VPC",
-      "product_name": "CTCP Đầu tư và Phát triển Năng lượng Việt Nam VPC - Họp ĐHĐCĐ thường niên năm 2026 Ngày GD không hưởng quyền: 05/11/2026",
+      "product_name": "CTCP Đầu tư và Phát triển Năng lượng Việt Nam",
       "exchange": "UPCOM",
       "unit": "Cổ phiếu",
       "current": 2200,
@@ -33935,7 +33935,7 @@
       "change_percent": null,
       "currency": "VND",
       "price_unit": "VND/cổ phiếu",
-      "status": "has_event",
+      "status": "warning_or_suspended",
       "source": "https://banggia.vietstock.vn/bang-gia/upcom"
     },
     {
@@ -34540,7 +34540,7 @@
       "product_id": "chung_khoan_vietstock_wsb",
       "asset_type": "Chứng khoán",
       "symbol": "WSB",
-      "product_name": "CTCP Bia Sài Gòn - Miền Tây WSB - Trả cổ tức đợt 1/2026 bằng tiền, 2,000 đồng/CP Ngày GD không hưởng quyền: 05/11/2026",
+      "product_name": "CTCP Bia Sài Gòn - Miền Tây",
       "exchange": "UPCOM",
       "unit": "Cổ phiếu",
       "current": 10000,
@@ -34556,7 +34556,7 @@
       "change_percent": 1,
       "currency": "VND",
       "price_unit": "VND/cổ phiếu",
-      "status": "has_event",
+      "status": "normal",
       "source": "https://banggia.vietstock.vn/bang-gia/upcom"
     },
     {
