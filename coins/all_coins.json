@@ -1645,6 +1645,11 @@
     "name": "Aborean"
   },
   {
+    "id": "abortmas",
+    "symbol": "abortmas",
+    "name": "ABORTMAS"
+  },
+  {
     "id": "abrdn-palladium-etf-trust-rstock",
     "symbol": "rpall",
     "name": "abrdn Physical Palladium Shares ETF Tokenized Stock (Reality)"
@@ -2313,6 +2318,11 @@
     "id": "aerosol",
     "symbol": "aerosol",
     "name": "aeroSOL"
+  },
+  {
+    "id": "aerostrategy",
+    "symbol": "aerostrat",
+    "name": "Aerostrategy"
   },
   {
     "id": "aerovironment-dinari-tokenized-stock",
@@ -4545,6 +4555,11 @@
     "name": "Alphabet (bStocks Tokenized Stock)"
   },
   {
+    "id": "alphabet-class-a-eqx-tokenized-stock",
+    "symbol": "eqgoog",
+    "name": "Alphabet Class A (EQX Tokenized Stock)"
+  },
+  {
     "id": "alphabet-class-a-ondo-tokenized-stock",
     "symbol": "googlon",
     "name": "Alphabet Class A (Ondo Tokenized Stock)"
@@ -4893,6 +4908,11 @@
     "id": "amazon-dinari-tokenized-stock",
     "symbol": "amzn",
     "name": "Amazon (Dinari Tokenized Stock)"
+  },
+  {
+    "id": "amazon-eqx-tokenized-stock",
+    "symbol": "eqamzn",
+    "name": "Amazon (EQX Tokenized Stock)"
   },
   {
     "id": "amazon-ondo-tokenized-stock",
@@ -6563,6 +6583,11 @@
     "id": "apple-dinari-tokenized-stock",
     "symbol": "aapl",
     "name": "Apple (Dinari Tokenized Stock)"
+  },
+  {
+    "id": "apple-eqx-tokenized-stock",
+    "symbol": "eqaapl",
+    "name": "Apple (EQX Tokenized Stock)"
   },
   {
     "id": "apple-ondo-tokenized-stock",
@@ -28830,11 +28855,6 @@
     "name": "DENCHCOIN"
   },
   {
-    "id": "denim",
-    "symbol": "denim",
-    "name": "DENIM"
-  },
-  {
     "id": "denison-mines-ondo-tokenized-stocks",
     "symbol": "dnnon",
     "name": "Denison Mines (Ondo Tokenized Stock)"
@@ -36130,6 +36150,11 @@
     "name": "FDrive Coin"
   },
   {
+    "id": "feast",
+    "symbol": "feast",
+    "name": "Feast"
+  },
+  {
     "id": "feather-2",
     "symbol": "🪶",
     "name": "🪶 (Feather)"
@@ -37558,6 +37583,11 @@
     "id": "floppa-cat",
     "symbol": "floppa",
     "name": "Floppa"
+  },
+  {
+    "id": "flora",
+    "symbol": "flora",
+    "name": "Flora"
   },
   {
     "id": "flork-2",
@@ -49845,6 +49875,11 @@
     "name": "Invesco QQQ Trust (bStocks Tokenized Stock)"
   },
   {
+    "id": "invesco-qqq-trust-eqx-tokenized-etf",
+    "symbol": "eqqqq",
+    "name": "Invesco QQQ Trust (EQX Tokenized ETF)"
+  },
+  {
     "id": "invesco-qqq-trust-series-1-dinari-tokenized-etf",
     "symbol": "qqq",
     "name": "Invesco QQQ Trust, Series 1 (Dinari Tokenized ETF)"
@@ -61362,7 +61397,12 @@
   {
     "id": "memeputer",
     "symbol": "memeputer",
-    "name": "Memeputer"
+    "name": "memeputer [OLD]"
+  },
+  {
+    "id": "memeputer-2",
+    "symbol": "memeputer",
+    "name": "memeputer"
   },
   {
     "id": "memerot",
@@ -61990,6 +62030,11 @@
     "name": "Meta Platforms (Dinari Tokenized Stock)"
   },
   {
+    "id": "meta-platforms-eqx-tokenized-stock",
+    "symbol": "eqmeta",
+    "name": "Meta Platforms (EQX Tokenized Stock)"
+  },
+  {
     "id": "meta-platforms-ondo-tokenized-stock",
     "symbol": "metaon",
     "name": "Meta Platforms (Ondo Tokenized Stock)"
@@ -62500,6 +62545,11 @@
     "name": "Micron Technology (bStocks Tokenized Stock)"
   },
   {
+    "id": "micron-technology-eqx-tokenized-stock",
+    "symbol": "eqmu",
+    "name": "Micron Technology (EQX Tokenized Stock)"
+  },
+  {
     "id": "micron-technology-inc-coinbase-tokenized-stock",
     "symbol": "muc",
     "name": "Micron Technology Inc. (Coinbase Tokenized Stock)"
@@ -62553,6 +62603,11 @@
     "id": "microsoft-dinari-tokenized-stock",
     "symbol": "msft",
     "name": "Microsoft (Dinari Tokenized Stock)"
+  },
+  {
+    "id": "microsoft-eqx-tokenized-stock",
+    "symbol": "eqmsft",
+    "name": "Microsoft (EQX Tokenized Stock)"
   },
   {
     "id": "microsoft-ondo-tokenized-stock",
@@ -69398,6 +69453,11 @@
     "id": "nvidia-dinari-tokenized-stock",
     "symbol": "nvda",
     "name": "NVIDIA (Dinari Tokenized Stock)"
+  },
+  {
+    "id": "nvidia-eqx-tokenized-stock",
+    "symbol": "eqnvda",
+    "name": "NVIDIA (EQX Tokenized Stock)"
   },
   {
     "id": "nvidia-ondo-tokenized-stock",
@@ -90915,6 +90975,11 @@
     "name": "SPDR S&P 500 ETF Trust Defichain"
   },
   {
+    "id": "spdr-s-p-500-etf-trust-eqx-tokenized-etf",
+    "symbol": "eqspy",
+    "name": "SPDR S&P 500 ETF Trust (EQX Tokenized ETF)"
+  },
+  {
     "id": "spdr-s-p-500-etf-trust-robinhood-tokenized-stock",
     "symbol": "spy",
     "name": "SPDR S&P 500 ETF Trust • Robinhood Token"
@@ -96705,6 +96770,11 @@
     "name": "Tesla (Dinari Tokenized Stock)"
   },
   {
+    "id": "tesla-eqx-tokenized-stock",
+    "symbol": "eqtsla",
+    "name": "Tesla (EQX Tokenized Stock)"
+  },
+  {
     "id": "tesla-ondo-tokenized-stock",
     "symbol": "tslaon",
     "name": "Tesla (Ondo Tokenized Stock)"
@@ -99793,11 +99863,6 @@
     "id": "ton-shiba",
     "symbol": "tshib",
     "name": "TON SHIBA"
-  },
-  {
-    "id": "ton-ship",
-    "symbol": "ship",
-    "name": "Ton Ship"
   },
   {
     "id": "tonski",
